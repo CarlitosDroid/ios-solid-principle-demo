@@ -15,6 +15,8 @@
 		5BB1DD56222CACCB007CB698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB1DD54222CACCB007CB698 /* LaunchScreen.storyboard */; };
 		5BB1DD61222CACCB007CB698 /* IOSSolidPrinciplesSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1DD60222CACCB007CB698 /* IOSSolidPrinciplesSampleTests.swift */; };
 		5BB1DD6C222CACCC007CB698 /* IOSSolidPrinciplesSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1DD6B222CACCC007CB698 /* IOSSolidPrinciplesSampleUITests.swift */; };
+		5BB1DD7C222CB583007CB698 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1DD7B222CB583007CB698 /* Service.swift */; };
+		5BB1DD84222CC475007CB698 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1DD83222CC475007CB698 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5BB1DD67222CACCC007CB698 /* IOSSolidPrinciplesSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSSolidPrinciplesSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB1DD6B222CACCC007CB698 /* IOSSolidPrinciplesSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSolidPrinciplesSampleUITests.swift; sourceTree = "<group>"; };
 		5BB1DD6D222CACCC007CB698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB1DD7B222CB583007CB698 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		5BB1DD83222CC475007CB698 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		5BB1DD47222CACC8007CB698 /* IOSSolidPrinciplesSample */ = {
 			isa = PBXGroup;
 			children = (
+				5BB1DD7A222CAEF4007CB698 /* sample01_srp */,
+				5BB1DD79222CAEDD007CB698 /* sample01 */,
 				5BB1DD48222CACC8007CB698 /* AppDelegate.swift */,
 				5BB1DD4A222CACC8007CB698 /* ViewController.swift */,
 				5BB1DD4C222CACC8007CB698 /* Main.storyboard */,
@@ -126,6 +132,22 @@
 				5BB1DD6D222CACCC007CB698 /* Info.plist */,
 			);
 			path = IOSSolidPrinciplesSampleUITests;
+			sourceTree = "<group>";
+		};
+		5BB1DD79222CAEDD007CB698 /* sample01 */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1DD7B222CB583007CB698 /* Service.swift */,
+				5BB1DD83222CC475007CB698 /* Product.swift */,
+			);
+			path = sample01;
+			sourceTree = "<group>";
+		};
+		5BB1DD7A222CAEF4007CB698 /* sample01_srp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sample01_srp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB1DD4B222CACC8007CB698 /* ViewController.swift in Sources */,
+				5BB1DD7C222CB583007CB698 /* Service.swift in Sources */,
+				5BB1DD84222CC475007CB698 /* Product.swift in Sources */,
 				5BB1DD51222CACC8007CB698 /* IOSSolidPrinciplesSample.xcdatamodeld in Sources */,
 				5BB1DD49222CACC8007CB698 /* AppDelegate.swift in Sources */,
 			);
